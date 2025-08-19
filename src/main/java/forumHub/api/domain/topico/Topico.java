@@ -1,4 +1,4 @@
-package com.br.alura.forumHub.api.topico;
+package forumHub.api.domain.topico;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -35,5 +35,5 @@ public class Topico {
         this.mensagem = dados.mensagem();
         this.titulo = dados.titulo();
     }
-    // Remova todos os métodos 'get' aqui. O Lombok já os cria para você.
-}
+
+  }

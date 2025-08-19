@@ -1,10 +1,8 @@
-package com.br.alura.forumHub.api.controller;
+package forumHub.api.controller;
 
-import com.br.alura.forumHub.api.repository.TopicoRepository;
-import com.br.alura.forumHub.api.service.TopicoService;
-import com.br.alura.forumHub.api.topico.*;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
+
+import forumHub.api.domain.topico.*;
+import forumHub.api.service.TopicoService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +12,6 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("topicos")

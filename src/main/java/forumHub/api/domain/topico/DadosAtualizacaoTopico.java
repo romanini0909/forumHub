@@ -1,4 +1,4 @@
-package com.br.alura.forumHub.api.topico;
+package forumHub.api.domain.topico;
 
 import jakarta.validation.constraints.NotNull;
 

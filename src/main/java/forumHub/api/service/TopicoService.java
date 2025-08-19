@@ -1,7 +1,6 @@
-package com.br.alura.forumHub.api.service;
+package forumHub.api.service;
 
-import com.br.alura.forumHub.api.topico.*;
-import com.br.alura.forumHub.api.repository.TopicoRepository;
+import forumHub.api.domain.topico.*;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
